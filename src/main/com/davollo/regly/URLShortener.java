@@ -1,15 +1,8 @@
 package com.davollo.regly;
 
-// Tech assessment #1
-// Based on https://stackoverflow.com/questions/742013/how-do-i-create-a-url-shortener
-// and then https://www.geeksforgeeks.org/how-to-design-a-tiny-url-or-url-shortener/
-// (originally contributed by shubham96301)
-// and then modernised in Intellij
-
 // Java program to generate short url from integer id and
 // integer id back from short url.
 import java.lang.*;
-import java.io.*;
 
 class URLShortener
 {
@@ -53,16 +46,6 @@ class URLShortener
                 id = id * 62 + shortURL.charAt(i) - '0' + 52;
         }
         return id;
-    }
-
-    // Driver Code
-    public static void main (String[] args) throws IOException
-    {
-        int n = 12345;
-        String shorturl = encode(n);
-        System.out.println("Generated short url is " + shorturl);
-        System.out.println("Id from url is " +
-                decode(shorturl));
     }
 }
 
