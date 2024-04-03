@@ -44,12 +44,14 @@ Part 1 highlights key requirements and Part 2 is the coding exercise.
   - 11600 read operations per second. 
   - 10-year data retention (365 billion 100 bytes 10 years=365 TB.
 
-1. Coding
-   2. Create a working URL shortening service in a programming language of your choice based upon the system design/requirements above.
-3. Things to consider (you may be asked about):
-   4. Unit & integration testing.
-   5. Mocks/Stubs.
-   6. Defensive coding-Security & resiliency.
-   7. How have you considered CAP Theorem.
-   8. How would you containerise your solution.
-   9. Explore several types of URL encoding algorithms.
+- Coding 
+  - Create a working URL shortening service in a programming language of your choice based upon the system design/requirements above. 
+- Things to consider (you may be asked about):
+  - Unit & integration testing.
+  - Mocks/Stubs.
+  - Defensive coding-Security & resiliency.
+  - How have you considered CAP Theorem.
+  - How would you containerise your solution.
+  - Explore several types of URL encoding algorithms.
+
+
